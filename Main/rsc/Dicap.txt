@@ -1,0 +1,256 @@
+CAPITULO_COM_IMAGEM
+IMAGEM:                                                                                                                                                                                                                                                                                                                             
+                             ...                                                
+                              @@@@@&%%(/*,.                                     
+                                 .,**/(##%&&@@@@@@@                             
+                                                 @@@                            
+               .******,                      ,%@@@@       .,****,.              
+            @@((((((((((@@@             @@@@&(,       @@@((((((((((@@           
+            @@    ..    @@@            @@@            @@@    .     @@           
+           @@@@@@@@@@@@@@@@@@&#((//////@@@//////((#&@@@@@@@@@@@@@@@@@@          
+        @@@&               @@@/////////////////////@@@               @@@@       
+      @@@                    @@@                 @@@         .          @@@     
+     @@@          @@           @@    ((   ((    @@         @@@@@         @@@    
+    @@@           @@           %@@   **   **   @@.                        @@/   
+    @@@      @@@@@@@@@@@@       @@             @@     @@@@@     @@@@@     @@@   
+    @@@           @@           &@@             @@            .            @@@   
+   &@@@@          @@           @@               @@         @@@@@         @@@@.  
+   @@@@@@                @@@@@@@@      %%%      @@@@@@@@                @@@@@@  
+   @@   @@@@           @@@       @@&   ***   @@@       @@@           @@@@   @@  
+  %@@      @@@@@@@@@@(@@          @@@&&&&&&&@@@          @@(@@@@@@@@@@      @@, 
+  @@@               ./@@          @@@.......@@@          @@...              @@@ 
+  @@                   @@@      .@@&         @@@       @@@                   @@ 
+ *@@                     @@@@@@@@               @@@@@@@%                     @@ 
+ @@@                @@                                     @#                @@@
+ @@                @@@                                     @@@               *@@
+ @@               @@@                                       @@@               @@
+#@@              @@.                                         %@@              @@
+ @@            @@@                                             @@@            @@
+ @@@         @@@                                                 @@@         @@@
+   @@@@@@@@@@@                                                     @@@@@@@@@@@                                                                                                                                                              
+FINAL
+NOME:
+Piloto
+TEXTO:
+O ano era 2094... era aniversário de Enzo, que acabara de chegar da escola quando dá de encontro com seu novo video game o Playstation XV o qual vem junto com um óculos de realidade virtual.O Playstation XV junto com a nova tecnologia 10D faz o usuário viver intessamente o game, como estivesse dentro dele. Enzo ao se conectar com seu vídeo game não percebe que estava chovendo muito forte, e com isso continua a jogar, porém um raio atinge sua casa e consequentemente acontece uma pane no aparelho que o suga para dentro do jogo.Ele, ao perceber que está dentro do jogo, avista duas opções em sua frente PLAY ou EXIT.\nDigite a opção que enzo irá escolher.
+PERSONAGEM:
+Enzo
+QTDALTERADA:
+50
+
+CAPITULO_COM_IMAGEM
+IMAGEM:
+                                                                                
+                                                                                
+                                                    .*#&#/#(                    
+               .            .,***//*,                     /*      *             
+               .   *                                      //@@@.  *             
+               .   *                                      //@@@.  *             
+               .   *                                      //@@@.  *             
+               .   *                                      //@@@.  *             
+               .   *                                      //@@@.  *                        
+               ,   *                                      /(@@@.  /             
+               ,   *                                 .   #/(@@@.  /             
+               ,   *                             .(///#/,(/(@@@.  /             
+               ,   *                                 .   (/(@@@.  /             
+               ,   *                                 . . #/(@@@.  /             
+               ,   *                                      /(@@@.  /             
+               ,   *                                      /(@@@.  /             
+               ,   *                                      /(@@@.  /             
+               ,   *                                      /(@@@.  /             
+               ,   *                                      /(@@@.  /                       
+               ,   *                                      /(@@@.  /             
+               ,   *                                      /(@@@.  /             
+                                 .,,***/(((*,.            //      
+FINAL
+NOME:
+As portas não mentem
+TEXTO:
+Enzo escolhe a opção de dar Play... Lá ele encontra um só uma porta que ao ser aberta o leva para um labirinto.Então, ele decide abrir a porta e dá de cara com dois caminhos distintos.Enzo percebe que está com uma barra de energia de 50% e não sabe o que vai acontecer com ela.Com isso, ele tem que dar o destino de escolher uma das portas, a da DIREITA ou da ESQUERDA\nDigite a porta que Enzo irá escolher",
+PERSONAGEM:
+Enzo
+QTDALTERADA:
+25
+
+CAPITULO_COM_IMAGEM
+IMAGEM:                                                                                                                                                                                                                                             
+                               ..                                               
+                              /  ,            #  .                              
+                              % ,             .. (                              
+                              ( @              % %                              
+                              ,                   .                             
+                             /                  . #                             
+                             & *                @ (                             
+                             / %                *  ,                            
+                             .                     &                            
+                            / ..                 & *                            
+                            @ /                  ,  ,                           
+                            / /(((((((((((((((((((* @                           
+                           .  (                   #                             
+                . ... .    *  .      .       .    .  /                          
+                 .   .     & (       . .      .    %.#   . .                    
+                           ( ........... ....... ... ..                         
+                          .  /                        (                         
+                          (  .                      @ (                         
+                          # /                       /  .                        
+                          (                            %                        
+                         .  *                        & *                        
+                         % .                         *  .                       
+                         & /                          / @                       
+                         * **************************** ,                       
+                           /                          ,  *                      
+                        % .                            # &                      
+                        @ (                            ( .                      
+                         .                                                                                                                                                                                                                                                                                   
+FINAL
+NOME:
+Pequena vitória
+TEXTO:
+Enzo escolhe a porta da direita que ao abrir-lá encontra uma reta com uma luz no fim... Ao chegar nessa Luz, ele dá de encontro com Zara - Zara é uma NPC do jogo que o acompanhará durante toda sua jornada no labirinto- Ao iniciar o papo com Zara, ela lhe informa que o labirinto é cheio de armadilhas e que ele deveria ter cuidado e, também, que o próximo obstáculo será a escolha de duas escadas que o levará para pontos diferentes.Ao andar mais um pouco, Enzo e Zara dão de cara com duas escadas, uma que sobe e outra que desce,e então Zara o pergunta, você vai subir ou vai descer?\nDigite se Enzo irá subir ou Descer
+PERSONAGEM:
+Enzo
+QTDALTERADA:
+25
+
+CAPITULO_COM_IMAGEM
+IMAGEM:
+                                ./&@%/                                          
+                           @#             &&                                    
+                        &,                   %(     .%@@&##&&@&,                
+                      (*                       %&#                @/            
+         .#&@@@@&%*  %.                                             ,%          
+    .@*                                                               &         
+  (/                                                                  @         
+ @                                                                    &         
+%,                                                                   @          
+#*                                                                   ./&&.      
+ @                                                                         ,@   
+  *#                                                                          @ 
+     &                                                                         &
+   #,                                                                          *
+  (                                                                            @
+  &                                                                           @ 
+  /*                                                                       *&   
+   .%                                                                 .&&,      
+      @,                                                         .#             
+          #@@#*..,/@@&.  @,                                    .@               
+                             #&@(.  .#@@(   @@              @&                  
+FINAL
+NOME:
+Chegada ao topo
+TEXTO:
+Enzo escolhe subir, e ao subir toda a escadaria percebe que chegou á cima das nuvens...
+PERSONAGEM:
+Enzo
+QTDALTERADA:
+25
+
+CAPITULO
+NOME:
+Inferno à diante
+TEXTO:
+Enzo escolhe descer, e ao descer toda a escadaria percebe que chegou ao centro da terra,o qual é supreendido por larva e perde quase toda a sua energia mal sabe ele que Zara continua viva, pois próxima da larva ela ganha energia
+PERSONAGEM:
+Enzo
+QTDALTERADA:
+-100
+
+CAPITULO_COM_IMAGEM
+IMAGEM:                                                                        
+                                  .*(%&@@@@@%(,                                 
+                          (@@@@#*.             .,(@@@@#.                        
+                      /@@(                             ,@@%                     
+                    @@/                                   .&@.                  
+                  (@(                                       ,@&                 
+                 &@.                                          @@                
+                *@,  .                                        .@%               
+                &@  /@.                                    @@  %@               
+                &@  /@,                                    @@  #@               
+                *@*  @@                                   (@,  @@               
+                 &@   @#                                 .@#  (@,               
+                  &@  @%  .%@@@@@@@@&       *@@@@@@@@@*  ,@( &@,                
+                   (@%@( %@@@@@@@@@@@.      @@@@@@@@@@@@ .@@@%                  
+                     @@  .@@@@@@@@@@,        @@@@@@@@@@(  #@          .,.       
+       (@/,@@*      .@%   .@@@@@@@(           ,@@@@@@@/    @#      ,@@,.@&      
+       @@   .@&      @%      .//     .@@ @@,     /(*      .@(     (@/   (@,     
+     (@@.     *&@@(. /@(            ,@@@ @@@#            .@@  *@@@(      %@&    
+   .@%             /@@@@@@@%*       #@@@ @@@@       .#@@@@@@@(             *@(  
+    .&@@@@@@@@@(       .*@@.@%@&    .@&   #@/    (@@&.@@(.       *&@@@@@@@@@*   
+                *@@@%.    %@ @ @@               %@.(*@@     (@@@#.              
+                     ,&@@%,@(*( &.&#@&&&&&&&&%#*,,,#.@(#@@@/                    
+                          /@, @ &%% & @ # / #.*&%,&  @&                         
+                       *@@@@/  &%.# % @ # /.(.,,*@.  @@@@#                      
+                  /@@@%.   &@      ,(&@@@&@@#*.     @@    ,@@@&.                
+        /@%*.(%&%*        *@@@&                   /@@@#        .#%%(.,#@@       
+        .@&,         .&@@#    *@@#,           .#@@(    *@@@/          &@#       
+          .%@*    &@&.          .  *#@@@@@@@&*.           . /@@,    @@.         
+            @%  *@&                                           ,@%  .@%          
+            *@@@& .                                             *@@@%                                                                                                                                                                          
+FINAL
+NOME:
+A primeira escolha errada
+TEXTO:
+Enzo escolhe a porta da esquerda, que o faz cair em um buraco bem profundo... Depois de alguns segundos caindo, sua tela fica preta e mostra que ele zerou sua energia e,consequentemente, ele perdeu o jogo. Então, Enzo consegue sair de dentro do game e irritado quebra o Playstation XV, joga-o pela janela e vai dormir não querendo relembrar o que viveu no game.
+PERSONAGEM:
+Enzo
+QTDALTERADA:
+-75
+
+CAPITULO
+NOME:
+A decepção
+TEXTO:
+Enzo selecionou a opção Exit e com isso conseguiu sair do jogo, consequentemente, saiu de dentro do game e quando voltou já era tarde da noite e sua família já estava dormindo. "Enzo então decidiu desligar completamente seu Playstation XV e foi para o quarto dormir. Em sua cabeça só havia pensamentos de como teria acontecido isso, mas é algo que nunca saberás...
+PERSONAGEM:
+Enzo
+QTDALTERADA:
+-50
+
+ESCOLHA
+ORIGEM:
+Piloto
+OPCAO:
+Play
+DESTINO:
+As portas não mentem
+
+ESCOLHA
+ORIGEM:
+Piloto
+OPCAO:
+Exit
+DESTINO:
+A decepção
+
+ESCOLHA
+ORIGEM:
+As portas não mentem
+OPCAO:
+Direita
+DESTINO:
+Pequena vitória
+
+ESCOLHA
+ORIGEM:
+As portas não mentem
+OPCAO:
+ESQUERDA
+DESTINO:
+A primeira escolha errada
+
+A primeira escolha errada
+ESCOLHA
+ORIGEM:
+Pequena vitória
+OPCAO:
+SUBIR
+DESTINO:
+Chegada ao topo
+
+ESCOLHA
+ORIGEM:
+Pequena vitória
+OPCAO:
+Descer
+DESTINO:
+Inferno à diante
