@@ -1,17 +1,13 @@
 import java.util.Scanner;
-
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-
 import java.util.HashMap;
 public class App extends Application {
     public static void main(String[] args) {
-        launch( args);
+        launch(args);
         Scanner input = new Scanner(System.in);
         Dicionario leitor = new Dicionario();
         HashMap<String, Personagem> recebePersonagem = leitor.LeitorPersonagem("Main/rsc/Dicpersona.txt");
@@ -23,23 +19,16 @@ public class App extends Application {
         
     }
 
-    @Override
-    public void start(Stage arg0) throws Exception {
-        arg0.setTitle("Titulo");
-        Button botao = new Button("Clique");
-        botao.setOnAction(new EventHandler<ActionEvent>() {
+    
+    public void start(Stage primaryStage) throws Exception
+    {   //System.out.println(getClass().getResource("tela.fxml"));
+        FXMLLoader carregador = new FXMLLoader(getClass().getResource("/teste.fxml"));
+        Parent root = carregador.load();
+        Scene scene = new Scene(root);
 
-            @Override
-            public void handle(ActionEvent arg0) 
-            {
-                System.out.println("Ae");
-                
-            }
-            
-        });
-        StackPane root = new StackPane();
-        root.getChildren().addAll(botao);
-        arg0.setScene(new Scene(root, 300, 300)); 
-        arg0.show();       
+        primaryStage.setTitle("Academia do piripa");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+        
     }
 }
