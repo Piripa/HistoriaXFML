@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class CapituloImagem extends Capitulos{
     private String img;
-    public CapituloImagem(HashMap<String,Personagem> personagens, Scanner scannerCap, Scanner escaneadorCapitulos)
+    public CapituloImagem(HashMap<String,Personagem> personagens, Scanner escaneadorCapitulos)
     {
-        this.ler(personagens, scannerCap, escaneadorCapitulos);
+        this.ler(personagens, escaneadorCapitulos);
         this.escolhas = new ArrayList<Escolha>();     
     }
     @Override
@@ -18,7 +18,7 @@ public class CapituloImagem extends Capitulos{
         super.mostrar();
     }
     @Override
-    protected void ler(HashMap<String,Personagem> personagens, Scanner scannerCap, Scanner escaneadorCapitulos)
+    protected void ler(HashMap<String,Personagem> personagens, Scanner escaneadorCapitulos)
     {
         String linha = escaneadorCapitulos.nextLine();//IMAGEM
         linha = escaneadorCapitulos.nextLine();
@@ -29,6 +29,6 @@ public class CapituloImagem extends Capitulos{
             this.img = this.img + "\n" + linha;
             linha = escaneadorCapitulos.nextLine();
         }
-        super.ler(personagens, scannerCap, escaneadorCapitulos);
+        super.ler(personagens, escaneadorCapitulos);
     }
 }

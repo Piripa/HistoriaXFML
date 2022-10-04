@@ -34,7 +34,7 @@ public class Dicionario
         }
         return personagens;
     }
-    public HashMap<String,Capitulos> LeitorCapitulos(String caminhoArquivoCapitulo,HashMap<String,Personagem> personagens, Scanner scannerCap)
+    public HashMap<String,Capitulos> LeitorCapitulos(String caminhoArquivoCapitulo,HashMap<String,Personagem> personagens)
     {
         HashMap<String,Capitulos> caps = new HashMap<String,Capitulos>();
         File arquivoCapitulo = new File(caminhoArquivoCapitulo);
@@ -49,13 +49,13 @@ public class Dicionario
                 }
                 if(linhaLidaCap.equals("CAPITULO_COM_IMAGEM"))
                 {
-                    CapituloImagem capitulo = new CapituloImagem(personagens,scannerCap,escaneadorCapitulos);
+                    CapituloImagem capitulo = new CapituloImagem(personagens,escaneadorCapitulos);
                     caps.put(capitulo.getNome(),capitulo);
                     linhaLidaCap="";
                 }
                 else if(linhaLidaCap.equals("CAPITULO"))
                 {
-                    Capitulos capitulo = new Capitulos(personagens,scannerCap,escaneadorCapitulos);
+                    Capitulos capitulo = new Capitulos(personagens,escaneadorCapitulos);
                     caps.put(capitulo.getNome(),capitulo);
                     linhaLidaCap="";
                 }

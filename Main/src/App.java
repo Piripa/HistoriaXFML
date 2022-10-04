@@ -8,14 +8,11 @@ import java.util.HashMap;
 public class App extends Application {
     public static void main(String[] args) {
         launch(args);
-        Scanner input = new Scanner(System.in);
-        Dicionario leitor = new Dicionario();
-        HashMap<String, Personagem> recebePersonagem = leitor.LeitorPersonagem("Main/rsc/Dicpersona.txt");
-        Personagem perso = recebePersonagem.get("Enzo");
-        HashMap<String,Capitulos> receberCapitulos = leitor.LeitorCapitulos("Main/rsc/Dicap.txt", recebePersonagem, input);
-        Capitulos raiz = receberCapitulos.get("Piloto");
-        raiz.mostrar();
-        input.close();
+       
+        //Personagem perso = recebePersonagem.get("Enzo");
+        
+        //Capitulos raiz = receberCapitulos.get("Piloto");
+        //raiz.mostrar();
         
     }
 

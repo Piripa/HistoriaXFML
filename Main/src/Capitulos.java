@@ -9,18 +9,17 @@ public class Capitulos
     protected ArrayList<Escolha> escolhas;
     private Personagem personagem;
     private int variacaoEnergy;
-    private Scanner input;
     
     protected Capitulos(){}
 
-    public Capitulos(String nome, String texto, Personagem personagem, int quantidade, Scanner input)
+    public Capitulos(String nome, String texto, Personagem personagem, int quantidade)
     {
         this.nome = nome;
         this.texto = texto;
         this.escolhas = new ArrayList<>();
         this.personagem = personagem;
         this.variacaoEnergy = quantidade;
-        this.input = input;
+        
     }
     public void mostrar()
     {
@@ -51,26 +50,26 @@ public class Capitulos
             {
                 
                 System.out.println("Digite a opção correta");
-                String desejo = input.nextLine();
+                //String desejo = input.nextLine();
                 for (int i = 0; i < escolhas.size(); i++) 
                 {
-                    if(desejo.equalsIgnoreCase(escolhas.get(i).getTexto()))
-                    {
-                        opcao = i;
-                    }
+                //     if(desejo.equalsIgnoreCase(escolhas.get(i).getTexto()))
+                //     {
+                //         opcao = i;
+                //     }
                 }      
             }
         }
         return opcao;
     }
-    public Capitulos(HashMap<String,Personagem> personagens, Scanner scannerCap, Scanner escaneadorCapitulos)
+    public Capitulos(HashMap<String,Personagem> personagens, Scanner escaneadorCapitulos)
     {
-        this.ler(personagens,scannerCap,escaneadorCapitulos);
+        this.ler(personagens,escaneadorCapitulos);
         this.escolhas = new ArrayList<Escolha>();
     }
-    protected void ler(HashMap<String,Personagem> personagens, Scanner scannerCap, Scanner escaneadorCapitulos)
+    protected void ler(HashMap<String,Personagem> personagens, Scanner escaneadorCapitulos)
     {
-        this.input = scannerCap;
+        //this.input = scannerCap;
         String linhaLidaCap = "";
         linhaLidaCap = escaneadorCapitulos.nextLine(); //Nome do Capitulo
         this.nome = escaneadorCapitulos.nextLine(); 
