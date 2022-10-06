@@ -1,10 +1,12 @@
 import java.util.HashMap;
 
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
+import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 
 public class Controlador {
@@ -14,7 +16,7 @@ public class Controlador {
     private Button botaoCarregar;
 
     @FXML
-    private VBox espacoBotao;
+    private VBox espacoBotoes;
 
     @FXML
     private Label imagensCap;
@@ -33,28 +35,26 @@ public class Controlador {
     }
     void mostrarCapitulo(Capitulos capitulos)
     {
+        textoDoCap.clear();
+        textoDoCap.clear();
+        espacoBotoes.getChildren().clear();
+
         textoDoCap.setText(capitulos.getNome() + "\n" + capitulos.getText() + "\n" + capitulos.alterarEnergiaPersonagem());
-    }
+        if(capitulos.getEscolhas().size() > 0)
+        {
+            for (Escolha escolha : capitulos.getEscolhas()) 
+            {
+                Button botao = new Button(escolha.getTexto());
+                botao.setOnAction(new EventHandler<ActionEvent>() {
 
-    public void mostrar()
-    {
-        // System.out.println("---------------------------------------------------------------------");
-        // System.out.println(this.nome);
-        // this.personagem.energy(this.variacaoEnergy);
-        // System.out.println();
-        // System.out.println(this.texto);
-        // if(this.escolhas.size() > 0)
-        // {
-        //     for (Escolha escolha : escolhas) 
-        //     {
-        //         System.out.println("-"+ escolha.getTexto());
-        //     }
-        //     System.out.println();
-            
-        //     int Id = escolher();
-        //     this.escolhas.get(Id).getProximo().mostrar();
-        
-        // }
+                    @Override
+                    public void handle(ActionEvent event) {
+                        mostrarCapitulo(escolha.getProximo());
+                    }
+                    
+                });
+                espacoBotoes.getChildren().add(botao);
+            }
+        }
     }
-
 }

@@ -77,4 +77,8 @@ public class Capitulos
     public String alterarEnergiaPersonagem() {
          return this.personagem.energy(this.variacaoEnergy);
     }
+
+    public ArrayList<Escolha> getEscolhas() {
+        return this.escolhas;
+    }
 }
