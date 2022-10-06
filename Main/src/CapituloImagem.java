@@ -9,14 +9,14 @@ public class CapituloImagem extends Capitulos{
         this.ler(personagens, escaneadorCapitulos);
         this.escolhas = new ArrayList<Escolha>();     
     }
-    @Override
-    public void mostrar()
-    {
-        System.out.println();
-        System.out.println(img);
-        System.out.println();
-        super.mostrar();
-    }
+    // @Override
+    // public void mostrar()
+    // {
+    //     System.out.println();
+    //     System.out.println(img);
+    //     System.out.println();
+    //     super.mostrar();
+    // }
     @Override
     protected void ler(HashMap<String,Personagem> personagens, Scanner escaneadorCapitulos)
     {

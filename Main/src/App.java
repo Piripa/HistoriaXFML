@@ -23,7 +23,7 @@ public class App extends Application {
         Parent root = carregador.load();
         Scene scene = new Scene(root);
 
-        primaryStage.setTitle("Academia do piripa");
+        primaryStage.setTitle("História");
         primaryStage.setScene(scene);
         primaryStage.show();
         

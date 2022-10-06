@@ -7,20 +7,21 @@ public class Personagem {
         this.nomeA = nomeP;
         this.energia = energia;
     }
-    public void energy(int quantidade)
-    {
+    public String energy(int quantidade)
+    {   String resultado = "";
         this.energia = this.energia + quantidade;
         if(this.energia >=50)
         {
-            System.out.println(this.nomeA + " ganhou " + quantidade + " e ficou com um total de " + this.energia + " de energia");
+            resultado = (this.nomeA + " ganhou " + quantidade + " e ficou com um total de " + this.energia + " de energia");
         }
         else if(this.energia < 50)
         {
-            System.out.println(this.nomeA + " perdeu " + quantidade + " e ficou com um total de " + this.energia + " de energia");
+            resultado = (this.nomeA + " perdeu " + quantidade + " e ficou com um total de " + this.energia + " de energia");
         }
         else if(this.energia ==0)
         {
-            System.out.println(" O personagem " + this.nomeA + "perdeu tudo, o jogo, inclusive a vida!");
+            resultado = (" O personagem " + this.nomeA + "perdeu tudo, o jogo, inclusive a vida!");
         }
+        return resultado;
     }
 }

@@ -21,26 +21,7 @@ public class Capitulos
         this.variacaoEnergy = quantidade;
         
     }
-    public void mostrar()
-    {
-        System.out.println("---------------------------------------------------------------------");
-        System.out.println(this.nome);
-        this.personagem.energy(this.variacaoEnergy);
-        System.out.println();
-        System.out.println(this.texto);
-        if(this.escolhas != null)
-        {
-            for (Escolha escolha : escolhas) 
-            {
-                System.out.println("-"+ escolha.getTexto());
-            }
-        if(this.escolhas.size()> 0)
-        {
-            int Id = escolher();
-            this.escolhas.get(Id).getProximo().mostrar();
-        }
-        }
-    }
+    
     private int escolher()
     {
         int opcao = -1;
@@ -87,5 +68,13 @@ public class Capitulos
     public String getNome()
     {
         return this.nome;
+    }
+
+    public String getText() {
+        return this.texto;
+    }
+
+    public String alterarEnergiaPersonagem() {
+         return this.personagem.energy(this.variacaoEnergy);
     }
 }
