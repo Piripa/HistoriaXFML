@@ -1,12 +1,10 @@
 import java.util.HashMap;
-
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
-import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 
 public class Controlador {
@@ -35,6 +33,17 @@ public class Controlador {
     }
     void mostrarCapitulo(Capitulos capitulos)
     {
+        imagensCap.setText("");
+        try 
+        {
+            CapituloImagem capituloImagem = (CapituloImagem)capitulos;
+            imagensCap.setText(capituloImagem.getImagem());
+        } 
+        catch (Exception e) 
+        {
+            System.out.println(e);
+            System.out.println("Tentativa de cast não coerente");
+        }
         textoDoCap.clear();
         textoDoCap.clear();
         espacoBotoes.getChildren().clear();
